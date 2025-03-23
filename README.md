@@ -18,3 +18,15 @@ The questions in the tutorials we collected are mainly OS problem description (q
 + Double-blind grading: TA does not know the student information, and TAs score independently.
 + Grading process: TAs participate in the entire teaching process of OS, from lecture to turtorial, and TAs are very familiar with the professional knowledge of this course. Before grading, TA will receive reference answers and document guidance on grading standards and a short training. TA also run code when grading.
 + Grading order: In order to ensure the accuracy and authority of human TA's grading, in actual grading, each question is scored by multiple TAs. These questions q1-q6 are selected from multiple tutorials in the entire OS course. For questions in the same tutorial, TA scores in the order of questions. Otherwise, it moves to student B. And our entire TAs team checked TA's scoring to ensure the rationality and correctness of the ground truth score.
+
+
+## Citation
+Please use the following when referencing [OS dataset](https://github.com/wenjing1170/llm_grader)
+```
+@article{xie2024grade,
+  title={Grade like a human: Rethinking automated assessment with large language models},
+  author={Xie, Wenjing and Niu, Juxin and Xue, Chun Jason and Guan, Nan},
+  journal={arXiv preprint arXiv:2405.19694},
+  year={2024}
+}
+```
