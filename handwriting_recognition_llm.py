@@ -1,4 +1,6 @@
-import cv2
+import dotenv
+dotenv.load_dotenv()
+
 import re
 import difflib
 from collections import Counter
@@ -6,12 +8,10 @@ import os
 import pandas as pd
 from datetime import datetime
 import glob
-from pathlib import Path
 import base64
 from openai import OpenAI
 import json
 import time
-import requests
 
 class BiologyHandwritingAnalyzerGPT4O:
     def __init__(self, data_directory="Biology-0089-059", output_file="biology_handwriting_analysis_results_gpt4o.xlsx", text_output_dir="biology_text_comparisons_gpt4o"):
@@ -605,9 +605,9 @@ def main():
     
     # Configuration
     data_directory = "Biology-0089-0159"  # Biology directory
-    output_filename = "biology_handwriting_analysis_results_gpt4o_robust.xlsx"
-    text_output_directory = "biology_text_comparisons_gpt4o_robust"  # Directory for individual text files
-    
+    output_filename = "biology_handwriting_analysis_results_gpt4o.xlsx"
+    text_output_directory = "biology_text_comparisons_gpt4o"  # Directory for individual text files
+
     # Create analyzer and run
     analyzer = BiologyHandwritingAnalyzerGPT4O(data_directory, output_filename, text_output_directory)
     analyzer.run_analysis()
