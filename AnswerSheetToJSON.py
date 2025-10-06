@@ -151,8 +151,8 @@ class AnswerSheetToJSON:
         }
         print("Built JSON schema successfully!")
 
-        print("Calling GPT-4o with multimodal content...")
-        # 4) Call GPT-4o with multimodal content
+        print("Calling GPT-5 with multimodal content...")
+        # 4) Call GPT-5 with multimodal content
         try:
             completion = self.client.chat.completions.parse(
                 model="gpt-5",
@@ -171,9 +171,9 @@ class AnswerSheetToJSON:
                     },
                 }
             )
-            print("Called GPT-4o with multimodal content successfully!")
+            print("Called GPT-5 with multimodal content successfully!")
         except Exception as e:
-            print(f"Error calling GPT-4o with multimodal content: {e}")
+            print(f"Error calling GPT-5 with multimodal content: {e}")
             raise e
 
         print("Writing output to file...")

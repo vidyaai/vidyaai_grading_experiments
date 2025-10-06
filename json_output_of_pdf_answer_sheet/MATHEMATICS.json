@@ -1,0 +1,331 @@
+{
+    "answer_sheet": [
+        {
+            "question_number": "1.1",
+            "answer": "b^2 - 4ac < 0",
+            "diagram": null
+        },
+        {
+            "question_number": "1.2",
+            "answer": "22",
+            "diagram": null
+        },
+        {
+            "question_number": "1.3",
+            "answer": "7.07 (approx)",
+            "diagram": null
+        },
+        {
+            "question_number": "1.4",
+            "answer": "B.C 640 - 546",
+            "diagram": null
+        },
+        {
+            "question_number": "1.5",
+            "answer": "parabolas",
+            "diagram": null
+        },
+        {
+            "question_number": "1.6",
+            "answer": "a1/a2 = b1/b2 = c1/c2",
+            "diagram": null
+        },
+        {
+            "question_number": "1.7",
+            "answer": "B.C 640 - 546",
+            "diagram": null
+        },
+        {
+            "question_number": "1.8",
+            "answer": "7.07 (approx)",
+            "diagram": null
+        },
+        {
+            "question_number": "2.1",
+            "answer": "34",
+            "diagram": null
+        },
+        {
+            "question_number": "2.2",
+            "answer": "equilateral",
+            "diagram": null
+        },
+        {
+            "question_number": "2.3",
+            "answer": "θ/360 × 2πr",
+            "diagram": null
+        },
+        {
+            "question_number": "2.4",
+            "answer": "irrational",
+            "diagram": null
+        },
+        {
+            "question_number": "2.5",
+            "answer": "degree of polynomial",
+            "diagram": null
+        },
+        {
+            "question_number": "2.6",
+            "answer": "u = (−b ± √(b^2 − 4ac)) / 2a",
+            "diagram": null
+        },
+        {
+            "question_number": "3.1",
+            "answer": "False",
+            "diagram": null
+        },
+        {
+            "question_number": "3.2",
+            "answer": "True",
+            "diagram": null
+        },
+        {
+            "question_number": "3.3",
+            "answer": "True",
+            "diagram": null
+        },
+        {
+            "question_number": "3.4",
+            "answer": "True",
+            "diagram": null
+        },
+        {
+            "question_number": "3.5",
+            "answer": "False",
+            "diagram": null
+        },
+        {
+            "question_number": "3.6",
+            "answer": "True",
+            "diagram": null
+        },
+        {
+            "question_number": "4.1",
+            "answer": "tan 30° = 1/√3",
+            "diagram": null
+        },
+        {
+            "question_number": "4.2",
+            "answer": "Area of sector = (θ/360) π r^2",
+            "diagram": null
+        },
+        {
+            "question_number": "4.3",
+            "answer": "Volume of hemisphere = (2/3) π r^3",
+            "diagram": null
+        },
+        {
+            "question_number": "4.4",
+            "answer": "1",
+            "diagram": null
+        },
+        {
+            "question_number": "4.5",
+            "answer": "sin θ / cos θ",
+            "diagram": null
+        },
+        {
+            "question_number": "4.6",
+            "answer": "tan^2 θ",
+            "diagram": null
+        },
+        {
+            "question_number": "5.1",
+            "answer": "Secant line: A line intersecting a circle in two distinct points is called a secant line. here, AB is a secant line.",
+            "diagram": {
+                "label": "unlabelled",
+                "bounding_box": {
+                    "x": 420,
+                    "y": 300,
+                    "width": 280,
+                    "height": 180,
+                    "page_number": 6
+                }
+            }
+        },
+        {
+            "question_number": "5.2",
+            "answer": "Given polynomial, p(x) = ax^2 + bx + c; product of zeroes = constant term / x^2 coefficient = c/a",
+            "diagram": null
+        },
+        {
+            "question_number": "5.3",
+            "answer": "Point of contact is: The tangent line which passes through a circle touches a point on the circle. That point is called the point of contact. here, AB is tangent and P is the point of contact.",
+            "diagram": {
+                "label": "unlabelled",
+                "bounding_box": {
+                    "x": 440,
+                    "y": 300,
+                    "width": 280,
+                    "height": 180,
+                    "page_number": 7
+                }
+            }
+        },
+        {
+            "question_number": "5.4",
+            "answer": "Area of segment = (θ/360) π r^2",
+            "diagram": null
+        },
+        {
+            "question_number": "5.5",
+            "answer": "The formula of finding nᵗʰ term is: a_n = a + (n−1) d",
+            "diagram": null
+        },
+        {
+            "question_number": "5.6",
+            "answer": "Basic Proportionality Theorem: When a line is drawn parallel to one side of a triangle to intersect the other two sides in two distinct points then divides them in equal ratio, that line divides the other two sides in equal ratio. This theorem is also known as Thales theorem.",
+            "diagram": null
+        },
+        {
+            "question_number": "6.1",
+            "answer": "Given: C(O,r) a circle, OA = OB = r = 21 cm, ∠OAB = 60°. To find: length of arc. Using length of arc = (θ/360) × 2πr = (60°/360°) × 2 × 22/7 × 21 = 22 cm. Therefore, length of arc of given circle is 22 cm.",
+            "diagram": {
+                "label": "unlabelled",
+                "bounding_box": {
+                    "x": 450,
+                    "y": 420,
+                    "width": 240,
+                    "height": 180,
+                    "page_number": 8
+                }
+            }
+        },
+        {
+            "question_number": "7.1",
+            "answer": "Probability of getting a number greater than 4 = 2/6",
+            "diagram": null
+        },
+        {
+            "question_number": "7.2",
+            "answer": "Probability of getting a number less than 4 = 3/6",
+            "diagram": null
+        },
+        {
+            "question_number": "8.1",
+            "answer": "Given P(E) = 0.95. Then P(Ē) = 1 − P(E) = 1 − 0.95 = 0.05. The probability of \"not E\" is 0.05.",
+            "diagram": null
+        },
+        {
+            "question_number": "9.1",
+            "answer": "Prime factors of 140 are: 2 × 2 × 5 × 7",
+            "diagram": null
+        },
+        {
+            "question_number": "10.1",
+            "answer": "3n^2 − n − 4 = (3n − 4)(n + 1); required zeroes are n = 4/3 and n = −1",
+            "diagram": null
+        },
+        {
+            "question_number": "11.1",
+            "answer": "Solving u + y = 14 and u − y = 4 by elimination gives u = 9, y = 5",
+            "diagram": null
+        },
+        {
+            "question_number": "12.1",
+            "answer": "For 34 + 32 + 30 + … + 10: a = 34, d = −2, a_n = 10 ⇒ n = 13; S_n = n/2 (a + a_n) ⇒ S_13 = 286. The required sum is 286.",
+            "diagram": null
+        },
+        {
+            "question_number": "13.1",
+            "answer": "Given PE = 4 cm, QE = 4.5 cm, PF = 8 cm, FR = 9 cm. In ΔPQR, PE/QE = PF/FR ⇒ 4/4.5 = 8/9 ⇒ 8/9 = 8/9; hence EF ∥ QR (by converse Thales theorem). Proved.",
+            "diagram": {
+                "label": "unlabelled",
+                "bounding_box": {
+                    "x": 420,
+                    "y": 100,
+                    "width": 320,
+                    "height": 140,
+                    "page_number": 17
+                }
+            }
+        },
+        {
+            "question_number": "14.1",
+            "answer": "Distance between A(−5,7) and B(−1,3): AB = √[(−1 + 5)^2 + (3 − 7)^2] = √(16 + 16) = √32 units",
+            "diagram": null
+        },
+        {
+            "question_number": "15.1",
+            "answer": "O(2,−3) is midpoint of AB and B(1,4). By midpoint formula, required coordinates of A are (3, −10).",
+            "diagram": {
+                "label": "unlabelled",
+                "bounding_box": {
+                    "x": 450,
+                    "y": 240,
+                    "width": 260,
+                    "height": 180,
+                    "page_number": 18
+                }
+            }
+        },
+        {
+            "question_number": "16.1",
+            "answer": "sin 60°·cos 30° + sin 30°·cos 60° = 1",
+            "diagram": null
+        },
+        {
+            "question_number": "17.1",
+            "answer": "From figure: OP is tangent = 24 cm, OQ = 25 cm. Using right triangle at point of contact, radius r = 7 cm. Therefore, radius of circle is 7 cm.",
+            "diagram": {
+                "label": "unlabelled",
+                "bounding_box": {
+                    "x": 460,
+                    "y": 390,
+                    "width": 340,
+                    "height": 200,
+                    "page_number": 21
+                }
+            }
+        },
+        {
+            "question_number": "18.1",
+            "answer": "For the tower: BC = 25 m, ∠ACB = 60°. tan60° = AB/BC ⇒ AB = 25√3 ≈ 43.3 m. Required height of tower is 25√3 m or 43.3 m.",
+            "diagram": {
+                "label": "unlabelled",
+                "bounding_box": {
+                    "x": 470,
+                    "y": 120,
+                    "width": 260,
+                    "height": 160,
+                    "page_number": 23
+                }
+            }
+        },
+        {
+            "question_number": "19.1",
+            "answer": "The highest power in the given equation is 2. Therefore, it is a quadratic equation.",
+            "diagram": null
+        },
+        {
+            "question_number": "20.1",
+            "answer": "For 8, 9 and 25: LCM = 1800, HCF = 1",
+            "diagram": null
+        },
+        {
+            "question_number": "21.1",
+            "answer": "Mode of given data is 65.625",
+            "diagram": null
+        },
+        {
+            "question_number": "22.1",
+            "answer": "In the capsule: r = 5/2 mm and cylinder height h = 9 mm. Total surface area = 220 mm². Required surface area of capsule is 220 mm².",
+            "diagram": {
+                "label": "unlabelled",
+                "bounding_box": {
+                    "x": 380,
+                    "y": 90,
+                    "width": 380,
+                    "height": 140,
+                    "page_number": 29
+                }
+            }
+        },
+        {
+            "question_number": "23.1",
+            "answer": "Solving 3x + 4y = 10 and 2x − 2y = 2 by elimination gives x = 2, y = 1",
+            "diagram": null
+        }
+    ]
+}
