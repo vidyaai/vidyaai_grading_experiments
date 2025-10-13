@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import json
+from textwrap import dedent
 import pandas as pd
 import os
 from openai import OpenAI
@@ -30,38 +31,38 @@ class LLMGrader:
         """Create a comprehensive prompt for GPT-4 to grade the answer"""
         prompt = f"""You are an expert grader for computer science assignments. Your task is to objectively grade a student's answer based on the provided criteria.
 
-**Question:**
-{question}
+            **Question:**
+            {question}
 
-**Student's Answer:**
-{student_answer}
+            **Student's Answer:**
+            {student_answer}
 
-**Sample/Reference Answer:**
-{sample_answer}
+            **Sample/Reference Answer:**
+            {sample_answer}
 
-**Grading Criteria:**
-{criteria}
+            **Grading Criteria:**
+            {criteria}
 
-**Total Points Available:** {full_points}
+            **Total Points Available:** {full_points}
 
-**Instructions:**
-1. Carefully analyze the student's answer against the grading criteria
-2. Compare it with the sample answer to understand the expected level of detail and accuracy
-3. Award points based on how well the student's answer meets each criterion
-4. Be objective and fair - partial credit should be given for partially correct answers
-5. Focus on the content and understanding demonstrated, not just exact wording
-6. Consider technical accuracy, completeness, and clarity of explanation
+            **Instructions:**
+            1. Carefully analyze the student's answer against the grading criteria
+            2. Compare it with the sample answer to understand the expected level of detail and accuracy
+            3. Award points based on how well the student's answer meets each criterion
+            4. Be objective and fair - partial credit should be given for partially correct answers
+            5. Focus on the content and understanding demonstrated, not just exact wording
+            6. Consider technical accuracy, completeness, and clarity of explanation
 
-**Response Format:**
-Provide your response as a JSON object with the following structure:
-{{
-    "score": [numerical score out of {full_points}],
-    "breakdown": "Detailed explanation of how points were awarded for each criterion",
-    "strengths": "What the student did well",
-    "areas_for_improvement": "What could be improved"
-}}
+            **Response Format:**
+            Provide your response as a JSON object with the following structure:
+            {{
+                "score": [numerical score out of {full_points}],
+                "breakdown": "Detailed explanation of how points were awarded for each criterion",
+                "strengths": "What the student did well",
+                "areas_for_improvement": "What could be improved"
+            }}
 
-Grade the answer now:"""
+            Grade the answer now:"""
         return prompt
     
     def grade_answer(self, question, student_answer, sample_answer, criteria, full_points, max_retries=3):
@@ -74,7 +75,7 @@ Grade the answer now:"""
                     model="gpt-4o",
                     messages=[
                         {"role": "system", "content": "You are an expert academic grader. Provide objective, fair, and detailed grading based on the given criteria. Always respond with valid JSON."},
-                        {"role": "user", "content": prompt}
+                        {"role": "user", "content": dedent(prompt)}
                     ],
                     temperature=0.1,  # Low temperature for consistent grading
                     max_tokens=1000

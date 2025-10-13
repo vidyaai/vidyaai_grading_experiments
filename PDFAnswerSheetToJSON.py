@@ -12,7 +12,7 @@ from typing import List
 
 from pdf2image import convert_from_path
 
-class AnswerSheetToJSON:
+class PDFAnswerSheetToJSON:
     def __init__(self, input_dir, output_dir):
         self.input_dir = input_dir
         self.output_dir = output_dir
@@ -302,7 +302,7 @@ def main():
     input_dir = "pdf_input"
     output_dir = "json_output_of_pdf_answer_sheet"
     
-    answer_sheet_to_json = AnswerSheetToJSON(input_dir=input_dir, output_dir=output_dir)
+    answer_sheet_to_json = PDFAnswerSheetToJSON(input_dir=input_dir, output_dir=output_dir)
     answer_sheet_to_json.run_analysis()
 
 if __name__ == "__main__":

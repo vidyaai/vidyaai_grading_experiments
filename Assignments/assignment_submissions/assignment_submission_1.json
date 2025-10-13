@@ -1,0 +1,43 @@
+{
+    "answer_sheet": [
+        { "question_number": "101", "answer": "Statement c (double d = 9;)", "diagram": null },
+        { "question_number": "102", "answer": "Statement a (extern int x;)", "diagram": null },
+        { "question_number": "103", "answer": "Statements d and e (a = 1; and b = 5;)", "diagram": null },
+        { "question_number": "104", "answer": "the value of the integer that p points to cannot change", "diagram": null },
+        { "question_number": "105", "answer": "never", "diagram": null },
+        { "question_number": "106", "answer": "’f’ - ’d’ is an int", "diagram": null },
+        { "question_number": "107", "answer": "it increases *rc", "diagram": null },
+        { "question_number": "108", "answer": "Invalid: a, d, e", "diagram": null },
+        { "question_number": "109", "answer": "Gives x: a, b, d, e", "diagram": null },
+        { "question_number": "110", "answer": "’z’ - ’t’; 13 % 7; 55 % 7", "diagram": null },
+        { "question_number": "111", "answer": "9", "diagram": null },
+        { "question_number": "112", "answer": "void func(int x); and void func(int);", "diagram": null },
+        { "question_number": "113", "answer": "void printFun(double)", "diagram": null },
+        { "question_number": "114", "answer": "5", "diagram": null },
+        { "question_number": "115", "answer": "No value is returned", "diagram": null },
+
+        { "question_number": "201", "answer": "long", "diagram": null },
+        { "question_number": "202", "answer": "double", "diagram": null },
+        { "question_number": "203", "answer": "int", "diagram": null },
+        { "question_number": "204", "answer": "int", "diagram": null },
+        { "question_number": "205", "answer": "int", "diagram": null },
+        { "question_number": "206", "answer": "float", "diagram": null },
+        { "question_number": "207", "answer": "float", "diagram": null },
+        { "question_number": "208", "answer": "double", "diagram": null },
+        { "question_number": "209", "answer": "long double", "diagram": null },
+        { "question_number": "210", "answer": "double", "diagram": null },
+
+        { "question_number": "3", "answer": "Use 'name' (local), '::name' (global), 'm.name' (member), and call m.print();", "diagram": null },
+
+        { "question_number": "401", "answer": "x is 10 *y is 10 **z is 10", "diagram": null },
+        { "question_number": "402", "answer": "a is 1 b is 1 c is 1\nx is 1 y is 0 z is 1", "diagram": null },
+        { "question_number": "403", "answer": " x[0] = 1 y[0] = 2", "diagram": null },
+        { "question_number": "404", "answer": "test1=20test2=50.8test3=68", "diagram": null },
+        { "question_number": "405", "answer": "At the beginning\n a = 10 b = 20\nBefore func2\n a = 5 b = 40\nAfter func2\n a = 40 b = 5\nAt the end\n a = 20 b = 10", "diagram": null },
+
+        { "question_number": "5", "answer": "Program prints a symmetric hourglass for odd n>1; validates input.", "diagram": null },
+        { "question_number": "6", "answer": "Constructor Complex(double r=0, double i=0); getters/setters implemented; prints values.", "diagram": null }
+    ]
+}
+
+

@@ -1,0 +1,662 @@
+{
+    "101": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Statement c (double d = 9;)' as both a definition and an initialization.",
+            "strengths": "Correctly identified the statement and provided the exact line.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Line c: initializes during definition (double d = 9;)' as both a definition and an initialization.",
+            "strengths": "Correctly identified the statement and provided a clear explanation.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 0,
+            "breakdown": "The student only provided 'c' without specifying the statement or the line.",
+            "strengths": "Identified the correct statement.",
+            "areas_for_improvement": "Include the full statement or line for clarity and completeness."
+        }
+    },
+    "102": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Statement a (extern int x;)' as a declaration without memory allocation.",
+            "strengths": "Correctly identified the statement and provided the exact line.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Line a: declaration only (extern int x;)' as a declaration without memory allocation.",
+            "strengths": "Correctly identified the statement and provided a clear explanation.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 0,
+            "breakdown": "The student only provided 'a' without specifying the statement or the line.",
+            "strengths": "Identified the correct statement.",
+            "areas_for_improvement": "Include the full statement or line for clarity and completeness."
+        }
+    },
+    "103": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Statements d and e (a = 1; and b = 5;)' as assignments.",
+            "strengths": "Correctly identified both statements and provided the exact lines.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Lines d and e assign values to a and b' as assignments.",
+            "strengths": "Correctly identified both statements and provided a clear explanation.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'd and e' as assignments.",
+            "strengths": "Correctly identified both statements.",
+            "areas_for_improvement": "Include the full statements or lines for clarity and completeness."
+        }
+    },
+    "104": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'the value of the integer that p points to cannot change'.",
+            "strengths": "Correctly identified the correct option.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 0,
+            "breakdown": "The student provided an incorrect explanation 'p points to const int (p itself modifiable)'.",
+            "strengths": "Attempted to explain the concept.",
+            "areas_for_improvement": "Select the correct option as per the question."
+        },
+        "student_3": {
+            "score": 0,
+            "breakdown": "The student provided an incorrect explanation 'const data via p'.",
+            "strengths": "Attempted to explain the concept.",
+            "areas_for_improvement": "Select the correct option as per the question."
+        }
+    },
+    "105": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'never' as the answer.",
+            "strengths": "Correctly identified the correct option.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'The test is unsatisfiable (never true)'.",
+            "strengths": "Correctly identified the correct option and provided a clear explanation.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'never true'.",
+            "strengths": "Correctly identified the correct option.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "106": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified '\u00e2\u20ac\u2122f\u00e2\u20ac\u2122 - \u00e2\u20ac\u2122d\u00e2\u20ac\u2122 is an int'.",
+            "strengths": "Correctly identified the correct option.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 0,
+            "breakdown": "The student provided an incorrect explanation 'Subtracting float and double yields an int after char-literal promotion case'.",
+            "strengths": "Attempted to explain the concept.",
+            "areas_for_improvement": "Select the correct option as per the question."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'f - d is int'.",
+            "strengths": "Correctly identified the correct option.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "107": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'it increases *rc'.",
+            "strengths": "Correctly identified the correct option.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'The character value referenced by rc is incremented'.",
+            "strengths": "Correctly identified the correct option and provided a clear explanation.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student correctly identified '*rc increments'.",
+            "strengths": "Correctly identified the correct option.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "108": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Invalid: a, d, e'.",
+            "strengths": "Correctly identified all invalid statements.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Invalid statements: (a), (d), (e)'.",
+            "strengths": "Correctly identified all invalid statements.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'a, d, e invalid'.",
+            "strengths": "Correctly identified all invalid statements.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "109": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Gives x: a, b, d, e'.",
+            "strengths": "Correctly identified all expressions that give the value of x.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Expressions yielding x: (a), (b), (d), (e)'.",
+            "strengths": "Correctly identified all expressions that give the value of x.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'a, b, d, e give x'.",
+            "strengths": "Correctly identified all expressions that give the value of x.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "110": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified '\u00e2\u20ac\u2122z\u00e2\u20ac\u2122 - \u00e2\u20ac\u2122t\u00e2\u20ac\u2122; 13 % 7; 55 % 7' as expressions resulting in an int equal to 6.",
+            "strengths": "Correctly identified all expressions.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Select: \u00e2\u20ac\u2122z\u00e2\u20ac\u2122 - \u00e2\u20ac\u2122t\u00e2\u20ac\u2122; 13 % 7; 55 % 7' as expressions resulting in an int equal to 6.",
+            "strengths": "Correctly identified all expressions.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student correctly identified '\u00e2\u20ac\u2122z\u00e2\u20ac\u2122 - \u00e2\u20ac\u2122t\u00e2\u20ac\u2122; 13 % 7; 55 % 7' as expressions resulting in an int equal to 6.",
+            "strengths": "Correctly identified all expressions.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "111": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified '9' as the value of x.",
+            "strengths": "Correctly identified the correct value.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 0,
+            "breakdown": "The student provided 'Nine', which is incorrect.",
+            "strengths": "Attempted to provide an answer.",
+            "areas_for_improvement": "Provide the numerical value as required by the question."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student correctly identified '9' as the value of x.",
+            "strengths": "Correctly identified the correct value.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "112": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'void func(int x); and void func(int);' as valid function declarations.",
+            "strengths": "Correctly identified both valid declarations.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Valid prototypes: void func(int x); and void func(int);' as valid function declarations.",
+            "strengths": "Correctly identified both valid declarations.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'void func(int x); void func(int);' as valid function declarations.",
+            "strengths": "Correctly identified both valid declarations.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "113": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'void printFun(double)' as the function that will be called.",
+            "strengths": "Correctly identified the correct function.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'printFun resolves to the double overload'.",
+            "strengths": "Correctly identified the correct function and provided a clear explanation.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'double overload'.",
+            "strengths": "Correctly identified the correct function.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "114": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified '5' as the number of times the function is called.",
+            "strengths": "Correctly identified the correct number of calls.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Total calls = 5'.",
+            "strengths": "Correctly identified the correct number of calls.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student correctly identified '5' as the number of times the function is called.",
+            "strengths": "Correctly identified the correct number of calls.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "115": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'No value is returned' for a void function.",
+            "strengths": "Correctly identified the behavior of a void function.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Void functions return no value'.",
+            "strengths": "Correctly identified the behavior of a void function.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'no value' for a void function.",
+            "strengths": "Correctly identified the behavior of a void function.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "201": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'long' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'long int' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'long' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "202": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'double' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'double' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'double' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "203": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'int' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'int' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'int' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "204": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'int' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'int' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'int' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "205": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'int' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'int' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'int' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "206": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'float' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'float' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'float' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "207": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'float' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'float' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'float' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "208": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'double' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'double' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'double' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "209": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'long double' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'long double' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'long double' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "210": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'double' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'double' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'double' as the result type.",
+            "strengths": "Correctly identified the result type.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "3": {
+        "student_1": {
+            "score": 10,
+            "breakdown": "The student correctly provided all four replacements: 'name' for local, '::name' for global, 'm.name' for member, and 'm.print();' for function invocation.",
+            "strengths": "Correctly identified all required expressions and function call.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 10,
+            "breakdown": "The student correctly provided all four replacements: 'Print local: name; global: ::name; member: m.name; call m.print();'.",
+            "strengths": "Correctly identified all required expressions and function call.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 10,
+            "breakdown": "The student correctly provided all four replacements: 'local=name; global=::name; member=m.name; call m.print();'.",
+            "strengths": "Correctly identified all required expressions and function call.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "401": {
+        "student_1": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output 'x is 10 *y is 10 **z is 10'.",
+            "strengths": "Correctly identified the output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output 'x is 10 *y is 10 **z is 10'.",
+            "strengths": "Correctly identified the output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output 'x is 10 *y is 10 **z is 10'.",
+            "strengths": "Correctly identified the output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "402": {
+        "student_1": {
+            "score": 2,
+            "breakdown": "The student correctly provided both lines of output: 'a is 1 b is 1 c is 1' and 'x is 1 y is 0 z is 1'.",
+            "strengths": "Correctly identified both lines of output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 2,
+            "breakdown": "The student correctly provided both lines of output: 'a is 1 b is 1 c is 1' and 'x is 1 y is 0 z is 1'.",
+            "strengths": "Correctly identified both lines of output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 2,
+            "breakdown": "The student correctly provided both lines of output: 'a is 1 b is 1 c is 1' and 'x is 1 y is 0 z is 1'.",
+            "strengths": "Correctly identified both lines of output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "403": {
+        "student_1": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output ' x[0] = 1 y[0] = 2'.",
+            "strengths": "Correctly identified the output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output ' x[0] = 1 y[0] = 2'.",
+            "strengths": "Correctly identified the output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output ' x[0] = 1 y[0] = 2'.",
+            "strengths": "Correctly identified the output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "404": {
+        "student_1": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output 'test1=20test2=50.8test3=68'.",
+            "strengths": "Correctly identified the output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output 'test1=20test2=50.8test3=68'.",
+            "strengths": "Correctly identified the output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output 'test1=20test2=50.8test3=68'.",
+            "strengths": "Correctly identified the output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "405": {
+        "student_1": {
+            "score": 2,
+            "breakdown": "The student correctly provided all six lines of output in the correct order and format.",
+            "strengths": "Correctly identified all lines of output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 2,
+            "breakdown": "The student correctly provided all six lines of output in the correct order and format.",
+            "strengths": "Correctly identified all lines of output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 2,
+            "breakdown": "The student correctly provided all six lines of output in the correct order and format.",
+            "strengths": "Correctly identified all lines of output.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "5": {
+        "student_1": {
+            "score": 40,
+            "breakdown": "The student correctly described the program's functionality, including input validation and output format.",
+            "strengths": "Correctly described the program's functionality and requirements.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 40,
+            "breakdown": "The student correctly described the program's functionality, including input validation and output format.",
+            "strengths": "Correctly described the program's functionality and requirements.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 40,
+            "breakdown": "The student correctly described the program's functionality, including input validation and output format.",
+            "strengths": "Correctly described the program's functionality and requirements.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "6": {
+        "student_1": {
+            "score": 20,
+            "breakdown": "The student correctly described the constructor, getters, and setters, and provided expected output.",
+            "strengths": "Correctly described the class implementation and functionality.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 20,
+            "breakdown": "The student correctly described the class implementation and provided sample I/O.",
+            "strengths": "Correctly described the class implementation and functionality.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 20,
+            "breakdown": "The student correctly described the class implementation and provided expected output.",
+            "strengths": "Correctly described the class implementation and functionality.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    }
+}

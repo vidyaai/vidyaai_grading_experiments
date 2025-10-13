@@ -1,0 +1,662 @@
+{
+    "101": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified the statement as 'Statement c (double d = 9;)', which matches the sample/reference answer.",
+            "strengths": "The student accurately identified the correct statement and provided the exact line of code.",
+            "areas_for_improvement": "The answer is complete and correct; no improvements needed."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified the line as 'Line c: initializes during definition (double d = 9;)', which is technically accurate and matches the intent of the sample/reference answer.",
+            "strengths": "The student provided a clear and technically accurate explanation of the line's function.",
+            "areas_for_improvement": "The answer is correct; however, simplifying the explanation could improve clarity."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student identified 'c', which is partially correct as it refers to the correct statement, but lacks the full context or exact line of code.",
+            "strengths": "The student correctly identified the correct statement by its label.",
+            "areas_for_improvement": "The student should provide the full statement or line of code for clarity and completeness."
+        }
+    },
+    "102": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Statement a (extern int x;)' as the line that declares a variable without allocating memory. This matches the sample/reference answer.",
+            "strengths": "The student provided a complete and accurate answer that matches the sample answer.",
+            "areas_for_improvement": "No improvements needed; the answer is correct and complete."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Line a: declaration only (extern int x;)' as the line that declares a variable without allocating memory. Although the wording is slightly different, it conveys the correct information.",
+            "strengths": "The student demonstrated understanding by correctly identifying the line and providing a brief explanation.",
+            "areas_for_improvement": "The answer could be more concise by directly matching the sample answer, but the current answer is still correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student provided 'a' as the answer, which is partially correct as it refers to the correct statement. However, it lacks the specific detail of 'extern int x;' which is necessary for full credit.",
+            "strengths": "The student correctly identified the correct statement by letter.",
+            "areas_for_improvement": "The student should include the specific code 'extern int x;' to fully meet the criteria and receive full credit."
+        }
+    },
+    "103": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student's answer correctly identifies both Statement d and Statement e as assignments, matching the sample/reference answer.",
+            "strengths": "The student accurately identified the correct lines as assignments and provided a clear and complete answer.",
+            "areas_for_improvement": "No improvements needed; the answer is correct and complete."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student's answer correctly identifies both lines d and e as assignments, which aligns with the sample/reference answer.",
+            "strengths": "The student correctly identified the lines and provided a clear explanation of their function.",
+            "areas_for_improvement": "The answer could be improved by using the exact terminology 'Statements d and e' to match the sample answer more closely."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student's answer correctly identifies both d and e as assignments, which is sufficient to meet the grading criteria.",
+            "strengths": "The student correctly identified the relevant lines, demonstrating understanding of the assignment operations.",
+            "areas_for_improvement": "The answer could be improved by providing a more detailed explanation, similar to the sample answer."
+        }
+    },
+    "104": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student's answer matches the sample/reference answer exactly, indicating a correct understanding that the value of the integer pointed to by 'p' cannot change.",
+            "strengths": "The student accurately identified the key concept that the value of the integer pointed to by 'p' is constant.",
+            "areas_for_improvement": "No improvements needed; the answer is correct and complete."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified that 'p' points to a const int, but the explanation focuses on the modifiability of 'p' itself rather than the immutability of the pointed-to value.",
+            "strengths": "The student correctly understands that 'p' points to a constant integer.",
+            "areas_for_improvement": "The student should focus on the immutability of the value pointed to by 'p', as that is the key aspect of the question."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student's answer implies that the data accessed via 'p' is constant, which is partially correct, but lacks clarity and completeness in explaining that the value of the integer pointed to by 'p' cannot change.",
+            "strengths": "The student recognizes that the data accessed through 'p' is constant.",
+            "areas_for_improvement": "The student should provide a clearer explanation that the value of the integer pointed to by 'p' cannot change, aligning more closely with the sample answer."
+        }
+    },
+    "105": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student provided the exact answer 'never', which matches the sample/reference answer and meets the grading criteria.",
+            "strengths": "The student correctly identified that the logical test is never true.",
+            "areas_for_improvement": "No improvement needed; the answer is concise and correct."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student stated 'The test is unsatisfiable (never true)', which conveys the same meaning as the sample answer. The answer is technically accurate and meets the grading criteria.",
+            "strengths": "The student demonstrated understanding by explaining that the test is unsatisfiable.",
+            "areas_for_improvement": "The answer could be more concise, but it is technically correct."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student answered 'never true', which effectively communicates the same conclusion as the sample answer. It meets the grading criteria.",
+            "strengths": "The student correctly identified the logical test as never true.",
+            "areas_for_improvement": "The answer is correct, but could be more concise by simply stating 'never'."
+        }
+    },
+    "106": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student's answer '\u00e2\u20ac\u2122f\u00e2\u20ac\u2122 - \u00e2\u20ac\u2122d\u00e2\u20ac\u2122 is an int' matches the sample/reference answer exactly, fulfilling the grading criteria completely.",
+            "strengths": "The student provided an answer that exactly matches the sample answer, demonstrating a clear understanding of the expected result.",
+            "areas_for_improvement": "None, as the answer is correct and complete."
+        },
+        "student_2": {
+            "score": 0,
+            "breakdown": "The student's answer 'Subtracting float and double yields an int after char-literal promotion case' does not match the sample/reference answer. The explanation is incorrect as subtracting a float and a double does not yield an int.",
+            "strengths": "The student attempted to provide an explanation, indicating some level of understanding of type promotion.",
+            "areas_for_improvement": "The student should focus on understanding the specific type conversion rules in mixed expressions involving float and double, and ensure the answer directly addresses the question."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student's answer 'f - d is int' is technically correct and aligns with the sample/reference answer, despite slight differences in wording.",
+            "strengths": "The student correctly identified the result type of the expression, demonstrating understanding of type conversion.",
+            "areas_for_improvement": "While the answer is correct, the student could improve by providing a more detailed explanation or using exact wording to match the reference answer."
+        }
+    },
+    "107": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student's answer 'it increases *rc' matches the sample/reference answer exactly, fulfilling the grading criteria.",
+            "strengths": "The student provided an answer that exactly matches the expected response.",
+            "areas_for_improvement": "None, as the answer is correct and complete."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student's answer 'The character value referenced by rc is incremented' correctly describes the effect of the operation, demonstrating an understanding of the concept.",
+            "strengths": "The student accurately described the effect of the operation in a technically correct manner.",
+            "areas_for_improvement": "The student could improve by using the exact phrasing from the sample answer to ensure full alignment with the grading criteria."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student's answer '*rc increments' captures the essence of the operation, indicating an understanding of the concept.",
+            "strengths": "The student succinctly conveyed the correct outcome of the operation.",
+            "areas_for_improvement": "The student could enhance clarity by providing a more detailed explanation or using the exact phrasing from the sample answer."
+        }
+    },
+    "108": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "Student 1 correctly identified all and only the invalid statements as 'a, d, e'. The answer matches the expected selection of invalid statements.",
+            "strengths": "The student accurately identified the invalid statements as required by the grading criteria.",
+            "areas_for_improvement": "The student could improve by providing a more detailed explanation or context for why these statements are invalid, although it was not required for this question."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "Student 2 correctly identified all and only the invalid statements as '(a), (d), (e)'. The use of parentheses does not affect the correctness of the answer.",
+            "strengths": "The student accurately identified the invalid statements and presented them clearly.",
+            "areas_for_improvement": "The student could enhance their answer by explaining the reasoning behind the selection of invalid statements, even though it was not necessary for this question."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "Student 3 correctly identified all and only the invalid statements as 'a, d, e'. The phrasing 'a, d, e invalid' is clear and meets the criteria.",
+            "strengths": "The student correctly identified the invalid statements and communicated them succinctly.",
+            "areas_for_improvement": "The student could improve by providing a brief explanation of why these statements are invalid, although it was not required for this question."
+        }
+    },
+    "109": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student's answer 'Gives x: a, b, d, e' correctly identifies all the required statements. The answer matches the expected selection exactly.",
+            "strengths": "The student correctly identified all the necessary statements that give the value of x.",
+            "areas_for_improvement": "The student could improve by providing a brief explanation of why each statement gives the value of x, to demonstrate deeper understanding."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student's answer 'Expressions yielding x: (a), (b), (d), (e)' correctly identifies all the required statements. The use of parentheses does not affect the correctness.",
+            "strengths": "The student correctly identified all the necessary statements that give the value of x.",
+            "areas_for_improvement": "The student could improve by avoiding unnecessary punctuation and providing a brief explanation of why each statement gives the value of x."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student's answer 'a, b, d, e give x' correctly identifies all the required statements. The phrasing is concise and accurate.",
+            "strengths": "The student correctly identified all the necessary statements that give the value of x.",
+            "areas_for_improvement": "The student could improve by providing a brief explanation of why each statement gives the value of x, to demonstrate deeper understanding."
+        }
+    },
+    "110": {
+        "student_1": {
+            "score": 0,
+            "breakdown": "The student's answer lists the expressions '\u00e2\u20ac\u2122z\u00e2\u20ac\u2122 - \u00e2\u20ac\u2122t\u00e2\u20ac\u2122; 13 % 7; 55 % 7'. However, the grading criteria specify that the correct answers should be exactly a, b, and e. The student's answer does not match this exactly.",
+            "strengths": "The student attempted to identify expressions that result in an int equal to 6.",
+            "areas_for_improvement": "The student should ensure that their selected answers match the specified correct answers exactly as per the grading criteria."
+        },
+        "student_2": {
+            "score": 0,
+            "breakdown": "The student's answer 'Select: \u00e2\u20ac\u2122z\u00e2\u20ac\u2122 - \u00e2\u20ac\u2122t\u00e2\u20ac\u2122; 13 % 7; 55 % 7' does not match the required answers exactly as a, b, and e. The inclusion of 'Select:' does not affect the correctness, but the selected expressions do not match the criteria.",
+            "strengths": "The student attempted to format their answer in a clear manner.",
+            "areas_for_improvement": "The student should focus on ensuring their selected answers match the exact criteria provided."
+        },
+        "student_3": {
+            "score": 0,
+            "breakdown": "The student's answer '\u00e2\u20ac\u2122z\u00e2\u20ac\u2122 - \u00e2\u20ac\u2122t\u00e2\u20ac\u2122; 13 % 7; 55 % 7' does not match the required answers exactly as a, b, and e. The selected expressions do not meet the criteria for awarding the point.",
+            "strengths": "The student identified expressions that could potentially result in an integer.",
+            "areas_for_improvement": "The student should verify their answers against the exact criteria to ensure correctness."
+        }
+    },
+    "111": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student provided the correct answer '9', which matches the sample/reference answer.",
+            "strengths": "The student correctly identified the result of the ternary operation and provided the correct numerical answer.",
+            "areas_for_improvement": "No improvements needed; the answer is correct."
+        },
+        "student_2": {
+            "score": 0,
+            "breakdown": "The student provided the answer 'Nine', which is not the correct numerical representation required by the question.",
+            "strengths": "The student understood the concept but failed to provide the answer in the expected numerical format.",
+            "areas_for_improvement": "Ensure to provide answers in the expected format, especially when a numerical answer is required."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student provided the correct answer '9', which matches the sample/reference answer.",
+            "strengths": "The student correctly identified the result of the ternary operation and provided the correct numerical answer.",
+            "areas_for_improvement": "No improvements needed; the answer is correct."
+        }
+    },
+    "112": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student correctly identified both 'void func(int x);' and 'void func(int);' as valid function declarations and did not include any incorrect options.",
+            "strengths": "The student accurately selected the correct function prototypes and presented them clearly.",
+            "areas_for_improvement": "The answer could be improved by using a more concise format, such as listing the prototypes without additional words."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student correctly identified both 'void func(int x);' and 'void func(int);' as valid function declarations and did not include any incorrect options.",
+            "strengths": "The student provided a clear and correct identification of the valid function prototypes.",
+            "areas_for_improvement": "The student could improve by avoiding unnecessary words like 'Valid prototypes:' to make the answer more concise."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student correctly identified both 'void func(int x);' and 'void func(int);' as valid function declarations and did not include any incorrect options.",
+            "strengths": "The student listed the correct function prototypes in a straightforward manner.",
+            "areas_for_improvement": "The answer is clear and concise; no significant improvements are necessary."
+        }
+    },
+    "113": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student's answer 'void printFun(double)' exactly matches the sample/reference answer, fulfilling the grading criteria completely.",
+            "strengths": "The student provided the exact function signature expected, demonstrating a clear understanding of the function call resolution.",
+            "areas_for_improvement": "No improvements needed; the answer is correct and complete."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'printFun resolves to the double overload' indicates an understanding that the double overload is called, but it does not provide the exact function signature as required by the grading criteria.",
+            "strengths": "The student correctly identified that the double overload is used, showing an understanding of function overloading.",
+            "areas_for_improvement": "The student should provide the exact function signature 'void printFun(double)' to fully meet the criteria."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'double overload' suggests an understanding that the double overload is called, but it lacks the specific function signature required by the grading criteria.",
+            "strengths": "The student correctly identified the type of overload being used, indicating a basic understanding of the concept.",
+            "areas_for_improvement": "The student should specify the exact function signature 'void printFun(double)' to fully satisfy the grading criteria."
+        }
+    },
+    "114": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student provided the correct answer '5', which matches the sample/reference answer and meets the grading criteria.",
+            "strengths": "The student correctly identified the number of times the function is called.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student provided the correct answer 'Total calls = 5'. Although the wording is slightly different, it clearly conveys the correct number of function calls.",
+            "strengths": "The student correctly identified the number of times the function is called and provided a clear answer.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        },
+        "student_3": {
+            "score": 1,
+            "breakdown": "The student provided the correct answer '5', which matches the sample/reference answer and meets the grading criteria.",
+            "strengths": "The student correctly identified the number of times the function is called.",
+            "areas_for_improvement": "None, the answer is complete and correct."
+        }
+    },
+    "115": {
+        "student_1": {
+            "score": 1,
+            "breakdown": "The student's answer 'No value is returned' matches the sample/reference answer exactly, fulfilling the grading criteria completely.",
+            "strengths": "The student provided a precise and accurate answer that directly matches the sample answer.",
+            "areas_for_improvement": "None. The answer is complete and accurate."
+        },
+        "student_2": {
+            "score": 1,
+            "breakdown": "The student's answer 'Void functions return no value' conveys the same meaning as the sample answer, fulfilling the grading criteria.",
+            "strengths": "The student demonstrated a clear understanding of the concept by accurately stating that void functions return no value.",
+            "areas_for_improvement": "None. The answer is clear and technically accurate."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'no value' is partially correct but lacks the context of a function with a void return type, which is necessary for full credit.",
+            "strengths": "The student correctly identified that no value is involved.",
+            "areas_for_improvement": "The student should provide more context by mentioning that this applies to functions with a void return type to fully meet the criteria."
+        }
+    },
+    "201": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'long' matches the grading criteria for full credit.",
+            "strengths": "The student correctly identified the type as 'long', which is one of the accepted answers.",
+            "areas_for_improvement": "No improvements needed as the answer is correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'long int' matches the grading criteria for full credit.",
+            "strengths": "The student correctly identified the type as 'long int', which is one of the accepted answers.",
+            "areas_for_improvement": "No improvements needed as the answer is correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'long' matches the grading criteria for full credit.",
+            "strengths": "The student correctly identified the type as 'long', which is one of the accepted answers.",
+            "areas_for_improvement": "No improvements needed as the answer is correct."
+        }
+    },
+    "202": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'double' matches the sample/reference answer exactly, fulfilling the grading criteria for full credit.",
+            "strengths": "The student provided the correct answer as expected.",
+            "areas_for_improvement": "No areas for improvement; the answer was correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'double' matches the sample/reference answer exactly, fulfilling the grading criteria for full credit.",
+            "strengths": "The student provided the correct answer as expected.",
+            "areas_for_improvement": "No areas for improvement; the answer was correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'double' matches the sample/reference answer exactly, fulfilling the grading criteria for full credit.",
+            "strengths": "The student provided the correct answer as expected.",
+            "areas_for_improvement": "No areas for improvement; the answer was correct."
+        }
+    },
+    "203": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'int' matches the sample/reference answer exactly, which meets the grading criteria for full credit.",
+            "strengths": "The student provided the correct answer as expected.",
+            "areas_for_improvement": "None, the answer is correct and complete."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'int' matches the sample/reference answer exactly, which meets the grading criteria for full credit.",
+            "strengths": "The student provided the correct answer as expected.",
+            "areas_for_improvement": "None, the answer is correct and complete."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'int' matches the sample/reference answer exactly, which meets the grading criteria for full credit.",
+            "strengths": "The student provided the correct answer as expected.",
+            "areas_for_improvement": "None, the answer is correct and complete."
+        }
+    },
+    "204": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'int' matches the sample/reference answer exactly, fulfilling the grading criteria for full credit.",
+            "strengths": "The student provided the correct data type for the expression 'b + c', demonstrating an understanding of the expected result type.",
+            "areas_for_improvement": "No improvements needed as the answer is correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'int' matches the sample/reference answer exactly, fulfilling the grading criteria for full credit.",
+            "strengths": "The student provided the correct data type for the expression 'b + c', demonstrating an understanding of the expected result type.",
+            "areas_for_improvement": "No improvements needed as the answer is correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'int' matches the sample/reference answer exactly, fulfilling the grading criteria for full credit.",
+            "strengths": "The student provided the correct data type for the expression 'b + c', demonstrating an understanding of the expected result type.",
+            "areas_for_improvement": "No improvements needed as the answer is correct."
+        }
+    },
+    "205": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'int' matches the sample/reference answer exactly, which meets the grading criteria for full credit.",
+            "strengths": "The student provided the correct answer as expected.",
+            "areas_for_improvement": "No improvements needed as the answer is correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'int' matches the sample/reference answer exactly, which meets the grading criteria for full credit.",
+            "strengths": "The student provided the correct answer as expected.",
+            "areas_for_improvement": "No improvements needed as the answer is correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'int' matches the sample/reference answer exactly, which meets the grading criteria for full credit.",
+            "strengths": "The student provided the correct answer as expected.",
+            "areas_for_improvement": "No improvements needed as the answer is correct."
+        }
+    },
+    "206": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'float' matches the sample/reference answer exactly, which is the expected result for the given expression. Therefore, full credit is awarded.",
+            "strengths": "The student provided the correct data type for the expression, demonstrating an understanding of type promotion and the resulting data type.",
+            "areas_for_improvement": "None. The answer is correct and complete."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'float' is correct and aligns perfectly with the sample/reference answer. Full credit is given as it meets the grading criteria.",
+            "strengths": "The student correctly identified the resulting data type of the expression, showing a good grasp of type conversion rules.",
+            "areas_for_improvement": "None. The answer is accurate and satisfactory."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'float' is correct and matches the sample/reference answer. Full credit is awarded as it fulfills the grading criteria.",
+            "strengths": "The student accurately determined the data type of the expression, indicating a solid understanding of type promotion.",
+            "areas_for_improvement": "None. The response is correct and complete."
+        }
+    },
+    "207": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'float' matches the sample/reference answer exactly, which is the expected type for the given expression.",
+            "strengths": "The student correctly identified the resulting type of the expression as 'float'.",
+            "areas_for_improvement": "No improvements needed; the answer is correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'float' is correct and matches the sample/reference answer, indicating an accurate understanding of the expression's type.",
+            "strengths": "The student provided the correct type for the expression, demonstrating a clear understanding.",
+            "areas_for_improvement": "No improvements needed; the answer is correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'float' is correct and aligns with the sample/reference answer, showing a correct interpretation of the expression's type.",
+            "strengths": "The student correctly identified the type of the expression as 'float'.",
+            "areas_for_improvement": "No improvements needed; the answer is correct."
+        }
+    },
+    "208": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'double' matches the sample/reference answer exactly, meeting the grading criteria for full credit.",
+            "strengths": "The student provided the correct data type 'double', which is technically accurate and complete.",
+            "areas_for_improvement": "None. The answer is correct and complete."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'double' matches the sample/reference answer exactly, meeting the grading criteria for full credit.",
+            "strengths": "The student provided the correct data type 'double', which is technically accurate and complete.",
+            "areas_for_improvement": "None. The answer is correct and complete."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'double' matches the sample/reference answer exactly, meeting the grading criteria for full credit.",
+            "strengths": "The student provided the correct data type 'double', which is technically accurate and complete.",
+            "areas_for_improvement": "None. The answer is correct and complete."
+        }
+    },
+    "209": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'long double' matches the sample/reference answer exactly, fulfilling the grading criteria for full credit.",
+            "strengths": "The student provided the correct data type as expected.",
+            "areas_for_improvement": "None, as the answer is correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'long double' matches the sample/reference answer exactly, fulfilling the grading criteria for full credit.",
+            "strengths": "The student provided the correct data type as expected.",
+            "areas_for_improvement": "None, as the answer is correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'long double' matches the sample/reference answer exactly, fulfilling the grading criteria for full credit.",
+            "strengths": "The student provided the correct data type as expected.",
+            "areas_for_improvement": "None, as the answer is correct."
+        }
+    },
+    "210": {
+        "student_1": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'double' matches the sample/reference answer exactly, fulfilling the grading criteria for full credit.",
+            "strengths": "The student provided the correct data type as expected.",
+            "areas_for_improvement": "No improvements needed; the answer is correct."
+        },
+        "student_2": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'double' is correct and matches the reference answer, meeting the criteria for full credit.",
+            "strengths": "The student correctly identified the data type resulting from the expression.",
+            "areas_for_improvement": "No improvements needed; the answer is correct."
+        },
+        "student_3": {
+            "score": 0.5,
+            "breakdown": "The student's answer 'double' is accurate and aligns with the sample answer, thus deserving full credit.",
+            "strengths": "The student accurately determined the resulting data type of the expression.",
+            "areas_for_improvement": "No improvements needed; the answer is correct."
+        }
+    },
+    "3": {
+        "student_1": {
+            "score": 10,
+            "breakdown": "The student correctly identified all four expressions: 'name' for the local variable, '::name' for the global variable, 'm.name' for the object's member, and 'm.print();' for invoking the member function. The answer aligns perfectly with the sample answer and meets all the grading criteria.",
+            "strengths": "The student demonstrated a clear understanding of scope resolution and object member access in C++. The answer was concise and accurate.",
+            "areas_for_improvement": "None. The answer was complete and correct."
+        },
+        "student_2": {
+            "score": 10,
+            "breakdown": "The student provided the correct expressions for accessing the local variable, global variable, and object member, as well as the correct method to invoke the member function. The answer is technically accurate and meets all the grading criteria.",
+            "strengths": "The student effectively communicated the correct expressions and demonstrated a solid understanding of the concepts.",
+            "areas_for_improvement": "None. The answer was complete and correct."
+        },
+        "student_3": {
+            "score": 10,
+            "breakdown": "The student correctly used 'name' for the local variable, '::name' for the global variable, 'm.name' for the object's member, and 'm.print();' for invoking the member function. The answer is technically accurate and meets all the grading criteria.",
+            "strengths": "The student provided a clear and concise answer that accurately addressed the question requirements.",
+            "areas_for_improvement": "None. The answer was complete and correct."
+        }
+    },
+    "401": {
+        "student_1": {
+            "score": 2,
+            "breakdown": "The student's answer matches the sample/reference answer exactly, fulfilling the grading criteria for full credit.",
+            "strengths": "The student provided an answer that is technically accurate and complete, matching the expected output exactly.",
+            "areas_for_improvement": "No improvements needed as the answer is perfect."
+        },
+        "student_2": {
+            "score": 2,
+            "breakdown": "The student's answer matches the sample/reference answer exactly, fulfilling the grading criteria for full credit.",
+            "strengths": "The student provided an answer that is technically accurate and complete, matching the expected output exactly.",
+            "areas_for_improvement": "No improvements needed as the answer is perfect."
+        },
+        "student_3": {
+            "score": 2,
+            "breakdown": "The student's answer matches the sample/reference answer exactly, fulfilling the grading criteria for full credit.",
+            "strengths": "The student provided an answer that is technically accurate and complete, matching the expected output exactly.",
+            "areas_for_improvement": "No improvements needed as the answer is perfect."
+        }
+    },
+    "402": {
+        "student_1": {
+            "score": 2,
+            "breakdown": "The student's answer matches the sample/reference answer exactly. Both lines are present and in the correct order.",
+            "strengths": "The student provided a complete and accurate answer that matches the expected output.",
+            "areas_for_improvement": "None. The answer is correct and complete."
+        },
+        "student_2": {
+            "score": 2,
+            "breakdown": "The student's answer matches the sample/reference answer exactly. Both lines are present and in the correct order.",
+            "strengths": "The student provided a complete and accurate answer that matches the expected output.",
+            "areas_for_improvement": "None. The answer is correct and complete."
+        },
+        "student_3": {
+            "score": 2,
+            "breakdown": "The student's answer matches the sample/reference answer exactly. Both lines are present and in the correct order.",
+            "strengths": "The student provided a complete and accurate answer that matches the expected output.",
+            "areas_for_improvement": "None. The answer is correct and complete."
+        }
+    },
+    "403": {
+        "student_1": {
+            "score": 2,
+            "breakdown": "The student's answer matches the sample answer exactly, including the leading space before 'x'.",
+            "strengths": "The student provided an answer that is technically accurate and matches the expected output perfectly.",
+            "areas_for_improvement": "No improvements needed; the answer is correct."
+        },
+        "student_2": {
+            "score": 2,
+            "breakdown": "The student's answer matches the sample answer exactly, including the leading space before 'x'.",
+            "strengths": "The student provided an answer that is technically accurate and matches the expected output perfectly.",
+            "areas_for_improvement": "No improvements needed; the answer is correct."
+        },
+        "student_3": {
+            "score": 2,
+            "breakdown": "The student's answer matches the sample answer exactly, including the leading space before 'x'.",
+            "strengths": "The student provided an answer that is technically accurate and matches the expected output perfectly.",
+            "areas_for_improvement": "No improvements needed; the answer is correct."
+        }
+    },
+    "404": {
+        "student_1": {
+            "score": 2,
+            "breakdown": "The student's answer 'test1=20test2=50.8test3=68' matches the reference answer exactly, meeting the grading criteria for full credit.",
+            "strengths": "The student provided an answer that is technically accurate and matches the expected output exactly.",
+            "areas_for_improvement": "No improvements needed as the answer is correct."
+        },
+        "student_2": {
+            "score": 2,
+            "breakdown": "The student's answer 'test1=20test2=50.8test3=68' matches the reference answer exactly, meeting the grading criteria for full credit.",
+            "strengths": "The student provided an answer that is technically accurate and matches the expected output exactly.",
+            "areas_for_improvement": "No improvements needed as the answer is correct."
+        },
+        "student_3": {
+            "score": 2,
+            "breakdown": "The student's answer 'test1=20test2=50.8test3=68' matches the reference answer exactly, meeting the grading criteria for full credit.",
+            "strengths": "The student provided an answer that is technically accurate and matches the expected output exactly.",
+            "areas_for_improvement": "No improvements needed as the answer is correct."
+        }
+    },
+    "405": {
+        "student_1": {
+            "score": 2,
+            "breakdown": "The student's answer contains all six lines in the exact order and with the correct spacing as required by the grading criteria.",
+            "strengths": "The student provided a complete and accurate answer that matches the reference answer perfectly.",
+            "areas_for_improvement": "No improvements needed; the answer is correct and complete."
+        },
+        "student_2": {
+            "score": 2,
+            "breakdown": "The student's answer contains all six lines in the exact order and with the correct spacing as required by the grading criteria.",
+            "strengths": "The student provided a complete and accurate answer that matches the reference answer perfectly.",
+            "areas_for_improvement": "No improvements needed; the answer is correct and complete."
+        },
+        "student_3": {
+            "score": 2,
+            "breakdown": "The student's answer contains all six lines in the exact order and with the correct spacing as required by the grading criteria.",
+            "strengths": "The student provided a complete and accurate answer that matches the reference answer perfectly.",
+            "areas_for_improvement": "No improvements needed; the answer is correct and complete."
+        }
+    },
+    "5": {
+        "student_1": {
+            "score": 20,
+            "breakdown": "The student mentions that the program prints a symmetric hourglass for odd n>1 and validates input. However, the answer lacks detail on how the program achieves this, such as specific validation steps or how the hourglass is constructed. The answer does not provide any example or mention of handling edge cases like n=3.",
+            "strengths": "The student understands the requirement for symmetry and input validation.",
+            "areas_for_improvement": "The student should provide more detail on the implementation, including how the hourglass is constructed and validated. Examples or specific cases would strengthen the answer."
+        },
+        "student_2": {
+            "score": 30,
+            "breakdown": "The student states that the program reads odd n>1, outputs a left-justified symmetric hourglass, and rejects invalid input. This answer is more detailed than student_1's, mentioning left-justification and rejection of invalid input, which aligns with the grading criteria. However, it still lacks specific examples or detailed explanation of the implementation.",
+            "strengths": "The student covers key aspects such as left-justification and input validation.",
+            "areas_for_improvement": "The student should include more specific details on the implementation process and provide examples to demonstrate understanding."
+        },
+        "student_3": {
+            "score": 25,
+            "breakdown": "The student claims the program is as specified and validates odd n>1. While this indicates a basic understanding of the requirements, the answer lacks detail on how the program achieves the specified output, including symmetry and formatting. No examples or specific implementation details are provided.",
+            "strengths": "The student acknowledges the need for validation and adherence to specifications.",
+            "areas_for_improvement": "The student should elaborate on the implementation details and provide examples to illustrate how the program meets the requirements."
+        }
+    },
+    "6": {
+        "student_1": {
+            "score": 15,
+            "breakdown": "The student mentioned a constructor with default parameters, which aligns with the requirement for a single constructor usable as both default and parameterized. However, the answer lacks detail on the implementation of getters and setters, and there is no explicit mention of compilation and execution results.",
+            "strengths": "Identified the need for a constructor with default parameters.",
+            "areas_for_improvement": "Provide more details on the implementation of getters and setters, and include information about the program's compilation and execution."
+        },
+        "student_2": {
+            "score": 18,
+            "breakdown": "The student described a class with a unified constructor and basic getters/setters, which suggests a correct understanding of the requirements. The mention of sample I/O implies the program was compiled and executed, but the lack of explicit detail on the implementation prevents full credit.",
+            "strengths": "Demonstrated understanding of the need for a unified constructor and basic getters/setters.",
+            "areas_for_improvement": "Include more explicit details on the implementation of the constructor, getters, and setters, and provide clear evidence of successful compilation and execution."
+        },
+        "student_3": {
+            "score": 17,
+            "breakdown": "The student indicated that the constructor, getters, and setters were implemented and outputs were shown, suggesting the program was compiled and executed. However, the lack of specific details on the implementation prevents full credit.",
+            "strengths": "Showed understanding of the requirements and indicated successful execution.",
+            "areas_for_improvement": "Provide more detailed information on the implementation of the constructor, getters, and setters, and ensure clarity in demonstrating the program's execution."
+        }
+    }
+}

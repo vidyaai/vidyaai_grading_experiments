@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1758815091536,
+    "type": "fill-blank",
+    "order": 1,
+    "points": 1,
+    "rubric": "a",
+    "options": [],
+    "question": "a",
+    "correctAnswer": "a"
+  },
+  {
+    "id": 1758815108368,
+    "type": "true-false",
+    "order": 2,
+    "points": 1,
+    "rubric": "a",
+    "options": [],
+    "question": "a",
+    "correctAnswer": "false"
+  },
+  {
+    "id": 1758960831812,
+    "type": "multi-part",
+    "order": 3,
+    "points": 1,
+    "rubric": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",
+    "options": [],
+    "question": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu\n",
+    "hasMainCode": false,
+    "mainDiagram": null,
+    "subquestions": [
+      {
+        "id": 1758960890780,
+        "type": "multi-part",
+        "points": 1,
+        "rubric": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",
+        "hasCode": false,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "subCode": "",
+        "question": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",
+        "hasDiagram": false,
+        "hasSubCode": false,
+        "subDiagram": null,
+        "subquestions": [
+          {
+            "id": 1758960936564,
+            "type": "short-answer",
+            "points": 1,
+            "question": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",
+            "correctAnswer": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu"
+          }
+        ],
+        "correctAnswer": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",
+        "allowMultipleCorrect": false,
+        "multipleCorrectAnswers": []
+      }
+    ],
+    "correctAnswer": "",
+    "hasMainDiagram": false,
+    "mainCodeLanguage": "python"
+  },
+  {
+    "id": 1758960977692,
+    "type": "multi-part",
+    "order": 4,
+    "points": 1,
+    "rubric": "",
+    "options": [],
+    "question": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",
+    "rubricType": "per-subquestion",
+    "hasMainCode": false,
+    "mainDiagram": null,
+    "subquestions": [
+      {
+        "id": 1758962301164,
+        "type": "multi-part",
+        "points": 1,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "subCode": "",
+        "question": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",
+        "hasDiagram": false,
+        "hasSubCode": false,
+        "rubricType": "per-subquestion",
+        "subDiagram": null,
+        "subquestions": [
+          {
+            "id": 1758962320740,
+            "type": "short-answer",
+            "points": 1,
+            "rubric": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",
+            "question": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",
+            "correctAnswer": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu"
+          }
+        ],
+        "allowMultipleCorrect": false,
+        "multipleCorrectAnswers": []
+      }
+    ],
+    "correctAnswer": "",
+    "hasMainDiagram": false,
+    "mainCodeLanguage": "python"
+  }
+]

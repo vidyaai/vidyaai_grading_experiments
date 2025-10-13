@@ -1,0 +1,39 @@
+answer_wise_grader
+Days              : 0
+Hours             : 0
+Minutes           : 6
+Seconds           : 2
+Milliseconds      : 47
+Ticks             : 3620473652
+TotalDays         : 0.00419036302314815
+TotalHours        : 0.100568712555556
+TotalMinutes      : 6.03412275333333
+TotalSeconds      : 362.0473652
+TotalMilliseconds : 362047.3652
+
+
+question_wise_grader
+Days              : 0
+Hours             : 0
+Minutes           : 2
+Seconds           : 40
+Milliseconds      : 337
+Ticks             : 1603377225
+TotalDays         : 0.00185576067708333
+TotalHours        : 0.04453825625
+TotalMinutes      : 2.672295375
+TotalSeconds      : 160.3377225
+TotalMilliseconds : 160337.7225
+
+assignment_wise_grader
+Days              : 0
+Hours             : 0
+Minutes           : 1
+Seconds           : 27
+Milliseconds      : 85
+Ticks             : 870855299
+TotalDays         : 0.00100793437384259
+TotalHours        : 0.0241904249722222
+TotalMinutes      : 1.45142549833333
+TotalSeconds      : 87.0855299
+TotalMilliseconds : 87085.5299
