@@ -1,0 +1,602 @@
+{
+    "student_1": {
+        "101": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Statement c (double d = 9;)' as both a definition and an initialization.",
+            "strengths": "Correct identification of the statement.",
+            "areas_for_improvement": "None."
+        },
+        "102": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Statement a (extern int x;)' as a declaration without memory allocation.",
+            "strengths": "Correct identification of the statement.",
+            "areas_for_improvement": "None."
+        },
+        "103": {
+            "score": 1,
+            "breakdown": "The student correctly identified both 'Statements d and e (a = 1; and b = 5;)' as assignments.",
+            "strengths": "Correct identification of both statements required for full credit.",
+            "areas_for_improvement": "None."
+        },
+        "104": {
+            "score": 1,
+            "breakdown": "The student correctly selected 'the value of the integer that p points to cannot change'.",
+            "strengths": "Correct understanding of pointer constancy.",
+            "areas_for_improvement": "None."
+        },
+        "105": {
+            "score": 1,
+            "breakdown": "The student correctly answered 'never' for when the logical test is true.",
+            "strengths": "Correct logical reasoning.",
+            "areas_for_improvement": "None."
+        },
+        "106": {
+            "score": 1,
+            "breakdown": "The student correctly identified '\u00e2\u20ac\u2122f\u00e2\u20ac\u2122 - \u00e2\u20ac\u2122d\u00e2\u20ac\u2122 is an int' as the correct case of mixed expressions.",
+            "strengths": "Correct understanding of character arithmetic.",
+            "areas_for_improvement": "None."
+        },
+        "107": {
+            "score": 1,
+            "breakdown": "The student correctly selected 'it increases *rc'.",
+            "strengths": "Correct understanding of pointer dereferencing.",
+            "areas_for_improvement": "None."
+        },
+        "108": {
+            "score": 1,
+            "breakdown": "The student correctly identified the invalid statements as 'a, d, e'.",
+            "strengths": "Correct identification of invalid statements.",
+            "areas_for_improvement": "None."
+        },
+        "109": {
+            "score": 1,
+            "breakdown": "The student correctly identified the statements that give the value of x as 'a, b, d, e'.",
+            "strengths": "Correct identification of valid expressions.",
+            "areas_for_improvement": "None."
+        },
+        "110": {
+            "score": 1,
+            "breakdown": "The student correctly identified the expressions resulting in an int equal to 6: '\u00e2\u20ac\u2122z\u00e2\u20ac\u2122 - \u00e2\u20ac\u2122t\u00e2\u20ac\u2122', '13 % 7', '55 % 7'.",
+            "strengths": "Correct calculation of expressions.",
+            "areas_for_improvement": "None."
+        },
+        "111": {
+            "score": 1,
+            "breakdown": "The student correctly answered '9' for the value of x.",
+            "strengths": "Correct evaluation of the ternary operation.",
+            "areas_for_improvement": "None."
+        },
+        "112": {
+            "score": 1,
+            "breakdown": "The student correctly selected 'void func(int x);' and 'void func(int);' as valid function declarations.",
+            "strengths": "Correct identification of valid function prototypes.",
+            "areas_for_improvement": "None."
+        },
+        "113": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'void printFun(double)' as the function that will be called.",
+            "strengths": "Correct understanding of function overloading.",
+            "areas_for_improvement": "None."
+        },
+        "114": {
+            "score": 1,
+            "breakdown": "The student correctly answered '5' for the number of times the function fib is called.",
+            "strengths": "Correct understanding of recursive function calls.",
+            "areas_for_improvement": "None."
+        },
+        "115": {
+            "score": 1,
+            "breakdown": "The student correctly answered 'No value is returned' for a function with return type void.",
+            "strengths": "Correct understanding of void return type.",
+            "areas_for_improvement": "None."
+        },
+        "201": {
+            "score": 0.5,
+            "breakdown": "The student correctly answered 'long' for the expression type.",
+            "strengths": "Correct identification of expression type.",
+            "areas_for_improvement": "None."
+        },
+        "202": {
+            "score": 0.5,
+            "breakdown": "The student correctly answered 'double' for the expression type.",
+            "strengths": "Correct identification of expression type.",
+            "areas_for_improvement": "None."
+        },
+        "203": {
+            "score": 0.5,
+            "breakdown": "The student correctly answered 'int' for the expression type.",
+            "strengths": "Correct identification of expression type.",
+            "areas_for_improvement": "None."
+        },
+        "204": {
+            "score": 0.5,
+            "breakdown": "The student correctly answered 'int' for the expression type.",
+            "strengths": "Correct identification of expression type.",
+            "areas_for_improvement": "None."
+        },
+        "205": {
+            "score": 0.5,
+            "breakdown": "The student correctly answered 'int' for the expression type.",
+            "strengths": "Correct identification of expression type.",
+            "areas_for_improvement": "None."
+        },
+        "206": {
+            "score": 0.5,
+            "breakdown": "The student correctly answered 'float' for the expression type.",
+            "strengths": "Correct identification of expression type.",
+            "areas_for_improvement": "None."
+        },
+        "207": {
+            "score": 0.5,
+            "breakdown": "The student correctly answered 'float' for the expression type.",
+            "strengths": "Correct identification of expression type.",
+            "areas_for_improvement": "None."
+        },
+        "208": {
+            "score": 0.5,
+            "breakdown": "The student correctly answered 'double' for the expression type.",
+            "strengths": "Correct identification of expression type.",
+            "areas_for_improvement": "None."
+        },
+        "209": {
+            "score": 0.5,
+            "breakdown": "The student correctly answered 'long double' for the expression type.",
+            "strengths": "Correct identification of expression type.",
+            "areas_for_improvement": "None."
+        },
+        "210": {
+            "score": 0.5,
+            "breakdown": "The student correctly answered 'double' for the expression type.",
+            "strengths": "Correct identification of expression type.",
+            "areas_for_improvement": "None."
+        },
+        "3": {
+            "score": 10,
+            "breakdown": "The student correctly used 'name' for the local variable, '::name' for the global variable, 'm.name' for the object's member, and called 'm.print();'.",
+            "strengths": "Correct usage of scope resolution and member access.",
+            "areas_for_improvement": "None."
+        },
+        "401": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output 'x is 10 *y is 10 **z is 10'.",
+            "strengths": "Correct understanding of pointer dereferencing and assignment.",
+            "areas_for_improvement": "None."
+        },
+        "402": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output 'a is 1 b is 1 c is 1\\nx is 1 y is 0 z is 1'.",
+            "strengths": "Correct understanding of reference and pointer manipulation.",
+            "areas_for_improvement": "None."
+        },
+        "403": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output ' x[0] = 1 y[0] = 2'.",
+            "strengths": "Correct understanding of pointer swapping.",
+            "areas_for_improvement": "None."
+        },
+        "404": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output 'test1=20test2=50.8test3=68'.",
+            "strengths": "Correct understanding of function overloading and default parameters.",
+            "areas_for_improvement": "None."
+        },
+        "405": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output with all six lines in the correct order and spacing.",
+            "strengths": "Correct understanding of function calls and reference manipulation.",
+            "areas_for_improvement": "None."
+        },
+        "5": {
+            "score": 40,
+            "breakdown": "The student correctly implemented a program that prints a symmetric hourglass for odd n>1 and validates input.",
+            "strengths": "Correct implementation of input validation and pattern printing.",
+            "areas_for_improvement": "None."
+        },
+        "6": {
+            "score": 20,
+            "breakdown": "The student correctly implemented the constructor, getters, and setters, and the program prints the expected values.",
+            "strengths": "Correct implementation of class constructor and member functions.",
+            "areas_for_improvement": "None."
+        }
+    },
+    "student_2": {
+        "101": {
+            "score": 1,
+            "breakdown": "The student correctly identified the line as 'double d = 9;', which is both a definition and an initialization.",
+            "strengths": "Correctly identified the statement as both a definition and initialization.",
+            "areas_for_improvement": "None."
+        },
+        "102": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'extern int x;' as a declaration without memory allocation.",
+            "strengths": "Accurately identified the declaration without memory allocation.",
+            "areas_for_improvement": "None."
+        },
+        "103": {
+            "score": 1,
+            "breakdown": "The student correctly identified both 'a = 1;' and 'b = 5;' as assignments.",
+            "strengths": "Correctly identified both assignment statements.",
+            "areas_for_improvement": "None."
+        },
+        "104": {
+            "score": 0,
+            "breakdown": "The student incorrectly stated that 'p points to const int (p itself modifiable)', which does not match the correct answer.",
+            "strengths": "None.",
+            "areas_for_improvement": "Review the concept of pointers to const and what it implies about the mutability of the pointed-to value."
+        },
+        "105": {
+            "score": 1,
+            "breakdown": "The student correctly identified that the logical test is 'never' true.",
+            "strengths": "Correctly analyzed the logical expression.",
+            "areas_for_improvement": "None."
+        },
+        "106": {
+            "score": 0,
+            "breakdown": "The student's answer did not match the correct answer '\u2019f\u2019 - \u2019d\u2019 is an int'.",
+            "strengths": "None.",
+            "areas_for_improvement": "Understand the result type of operations involving char literals."
+        },
+        "107": {
+            "score": 1,
+            "breakdown": "The student correctly identified that the character value referenced by rc is incremented.",
+            "strengths": "Correctly understood the effect of the increment operation on the dereferenced pointer.",
+            "areas_for_improvement": "None."
+        },
+        "108": {
+            "score": 1,
+            "breakdown": "The student correctly identified the invalid statements as (a), (d), and (e).",
+            "strengths": "Accurately identified all invalid statements.",
+            "areas_for_improvement": "None."
+        },
+        "109": {
+            "score": 1,
+            "breakdown": "The student correctly identified the expressions that yield the value of x: (a), (b), (d), and (e).",
+            "strengths": "Correctly identified all expressions that yield the value of x.",
+            "areas_for_improvement": "None."
+        },
+        "110": {
+            "score": 1,
+            "breakdown": "The student correctly selected the expressions that result in an int equal to 6: '\u2019z\u2019 - \u2019t\u2019', '13 % 7', and '55 % 7'.",
+            "strengths": "Accurately identified all expressions resulting in the correct integer value.",
+            "areas_for_improvement": "None."
+        },
+        "111": {
+            "score": 1,
+            "breakdown": "The student correctly identified the value of x as '9'.",
+            "strengths": "Correctly evaluated the ternary operation.",
+            "areas_for_improvement": "None."
+        },
+        "112": {
+            "score": 1,
+            "breakdown": "The student correctly identified the valid function prototypes: 'void func(int x);' and 'void func(int);'.",
+            "strengths": "Accurately identified valid function prototypes.",
+            "areas_for_improvement": "None."
+        },
+        "113": {
+            "score": 1,
+            "breakdown": "The student correctly identified that 'printFun' resolves to the double overload.",
+            "strengths": "Correctly understood function overloading resolution.",
+            "areas_for_improvement": "None."
+        },
+        "114": {
+            "score": 1,
+            "breakdown": "The student correctly calculated the total number of calls to 'fib' as 5.",
+            "strengths": "Accurately traced the recursive function calls.",
+            "areas_for_improvement": "None."
+        },
+        "115": {
+            "score": 1,
+            "breakdown": "The student correctly stated that void functions return no value.",
+            "strengths": "Correctly understood the behavior of void functions.",
+            "areas_for_improvement": "None."
+        },
+        "201": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified the result type as 'long int'.",
+            "strengths": "Correctly identified the result type of the expression.",
+            "areas_for_improvement": "None."
+        },
+        "202": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified the result type as 'double'.",
+            "strengths": "Correctly identified the result type of the expression.",
+            "areas_for_improvement": "None."
+        },
+        "203": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified the result type as 'int'.",
+            "strengths": "Correctly identified the result type of the expression.",
+            "areas_for_improvement": "None."
+        },
+        "204": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified the result type as 'int'.",
+            "strengths": "Correctly identified the result type of the expression.",
+            "areas_for_improvement": "None."
+        },
+        "205": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified the result type as 'int'.",
+            "strengths": "Correctly identified the result type of the expression.",
+            "areas_for_improvement": "None."
+        },
+        "206": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified the result type as 'float'.",
+            "strengths": "Correctly identified the result type of the expression.",
+            "areas_for_improvement": "None."
+        },
+        "207": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified the result type as 'float'.",
+            "strengths": "Correctly identified the result type of the expression.",
+            "areas_for_improvement": "None."
+        },
+        "208": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified the result type as 'double'.",
+            "strengths": "Correctly identified the result type of the expression.",
+            "areas_for_improvement": "None."
+        },
+        "209": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified the result type as 'long double'.",
+            "strengths": "Correctly identified the result type of the expression.",
+            "areas_for_improvement": "None."
+        },
+        "210": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified the result type as 'double'.",
+            "strengths": "Correctly identified the result type of the expression.",
+            "areas_for_improvement": "None."
+        },
+        "3": {
+            "score": 10,
+            "breakdown": "The student correctly used 'name' for the local variable, '::name' for the global variable, 'm.name' for the object's member, and called 'm.print();'.",
+            "strengths": "Correctly implemented all required expressions and function calls.",
+            "areas_for_improvement": "None."
+        },
+        "401": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output: 'x is 10 *y is 10 **z is 10'.",
+            "strengths": "Accurately traced the pointer operations.",
+            "areas_for_improvement": "None."
+        },
+        "402": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output: 'a is 1 b is 1 c is 1\\nx is 1 y is 0 z is 1'.",
+            "strengths": "Accurately traced the reference and pointer operations.",
+            "areas_for_improvement": "None."
+        },
+        "403": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output: ' x[0] = 1 y[0] = 2'.",
+            "strengths": "Correctly understood the effect of the swap function.",
+            "areas_for_improvement": "None."
+        },
+        "404": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output: 'test1=20test2=50.8test3=68'.",
+            "strengths": "Accurately calculated the results of the function calls.",
+            "areas_for_improvement": "None."
+        },
+        "405": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output with all six lines in the correct order and format.",
+            "strengths": "Accurately traced the function calls and understood the parameter passing.",
+            "areas_for_improvement": "None."
+        },
+        "5": {
+            "score": 40,
+            "breakdown": "The student described a program that reads an odd integer n > 1 and outputs a symmetric hourglass, rejecting invalid input. This matches the requirements.",
+            "strengths": "Correctly implemented input validation and output formatting.",
+            "areas_for_improvement": "None."
+        },
+        "6": {
+            "score": 20,
+            "breakdown": "The student correctly implemented a class Complex with a unified constructor and basic getters/setters, and provided sample I/O.",
+            "strengths": "Correctly implemented the constructor and member functions.",
+            "areas_for_improvement": "None."
+        }
+    },
+    "student_3": {
+        "101": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Statement c' which matches the rubric requirement.",
+            "strengths": "Correct identification of the statement that is both a definition and an initialization.",
+            "areas_for_improvement": "None."
+        },
+        "102": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'Statement a', which matches the rubric requirement.",
+            "strengths": "Correct identification of the statement that declares a variable without allocating memory.",
+            "areas_for_improvement": "None."
+        },
+        "103": {
+            "score": 1,
+            "breakdown": "The student correctly identified both 'Statement d and e', which matches the rubric requirement.",
+            "strengths": "Correct identification of both assignment statements.",
+            "areas_for_improvement": "None."
+        },
+        "104": {
+            "score": 0,
+            "breakdown": "The student's answer 'const data via p' does not match the correct answer 'the value of the integer that p points to cannot change'.",
+            "strengths": "None.",
+            "areas_for_improvement": "Ensure the correct interpretation of pointer constancy."
+        },
+        "105": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'never', which matches the rubric requirement.",
+            "strengths": "Correct identification of the logical test condition.",
+            "areas_for_improvement": "None."
+        },
+        "106": {
+            "score": 0,
+            "breakdown": "The student's answer 'f - d is int' does not match the correct answer '\u00e2\u20ac\u2122f\u00e2\u20ac\u2122 - \u00e2\u20ac\u2122d\u00e2\u20ac\u2122 is an int'.",
+            "strengths": "None.",
+            "areas_for_improvement": "Pay attention to character representation in expressions."
+        },
+        "107": {
+            "score": 0,
+            "breakdown": "The student's answer '*rc increments' does not match the correct answer 'it increases *rc'.",
+            "strengths": "None.",
+            "areas_for_improvement": "Ensure clarity and precision in describing pointer operations."
+        },
+        "108": {
+            "score": 1,
+            "breakdown": "The student correctly identified options a, d, and e as invalid, which matches the rubric requirement.",
+            "strengths": "Correct identification of invalid statements.",
+            "areas_for_improvement": "None."
+        },
+        "109": {
+            "score": 1,
+            "breakdown": "The student correctly identified options a, b, d, and e, which matches the rubric requirement.",
+            "strengths": "Correct identification of expressions that give the value of x.",
+            "areas_for_improvement": "None."
+        },
+        "110": {
+            "score": 1,
+            "breakdown": "The student correctly identified '\u00e2\u20ac\u2122z\u00e2\u20ac\u2122 - \u00e2\u20ac\u2122t\u00e2\u20ac\u2122; 13 % 7; 55 % 7', which matches the rubric requirement.",
+            "strengths": "Correct identification of expressions resulting in an int equal to 6.",
+            "areas_for_improvement": "None."
+        },
+        "111": {
+            "score": 1,
+            "breakdown": "The student correctly identified '9', which matches the rubric requirement.",
+            "strengths": "Correct evaluation of the ternary operation.",
+            "areas_for_improvement": "None."
+        },
+        "112": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'void func(int x); void func(int);', which matches the rubric requirement.",
+            "strengths": "Correct identification of valid function declarations.",
+            "areas_for_improvement": "None."
+        },
+        "113": {
+            "score": 0,
+            "breakdown": "The student's answer 'double overload' does not match the correct answer 'void printFun(double)'.",
+            "strengths": "None.",
+            "areas_for_improvement": "Ensure the correct identification of function overloads."
+        },
+        "114": {
+            "score": 1,
+            "breakdown": "The student correctly identified '5', which matches the rubric requirement.",
+            "strengths": "Correct calculation of function call count.",
+            "areas_for_improvement": "None."
+        },
+        "115": {
+            "score": 1,
+            "breakdown": "The student correctly identified 'no value', which matches the rubric requirement.",
+            "strengths": "Correct understanding of void function return behavior.",
+            "areas_for_improvement": "None."
+        },
+        "201": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'long', which matches the rubric requirement.",
+            "strengths": "Correct identification of the resulting type.",
+            "areas_for_improvement": "None."
+        },
+        "202": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'double', which matches the rubric requirement.",
+            "strengths": "Correct identification of the resulting type.",
+            "areas_for_improvement": "None."
+        },
+        "203": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'int', which matches the rubric requirement.",
+            "strengths": "Correct identification of the resulting type.",
+            "areas_for_improvement": "None."
+        },
+        "204": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'int', which matches the rubric requirement.",
+            "strengths": "Correct identification of the resulting type.",
+            "areas_for_improvement": "None."
+        },
+        "205": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'int', which matches the rubric requirement.",
+            "strengths": "Correct identification of the resulting type.",
+            "areas_for_improvement": "None."
+        },
+        "206": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'float', which matches the rubric requirement.",
+            "strengths": "Correct identification of the resulting type.",
+            "areas_for_improvement": "None."
+        },
+        "207": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'float', which matches the rubric requirement.",
+            "strengths": "Correct identification of the resulting type.",
+            "areas_for_improvement": "None."
+        },
+        "208": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'double', which matches the rubric requirement.",
+            "strengths": "Correct identification of the resulting type.",
+            "areas_for_improvement": "None."
+        },
+        "209": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'long double', which matches the rubric requirement.",
+            "strengths": "Correct identification of the resulting type.",
+            "areas_for_improvement": "None."
+        },
+        "210": {
+            "score": 0.5,
+            "breakdown": "The student correctly identified 'double', which matches the rubric requirement.",
+            "strengths": "Correct identification of the resulting type.",
+            "areas_for_improvement": "None."
+        },
+        "3": {
+            "score": 10,
+            "breakdown": "The student correctly replaced all expressions as required: local 'name', global '::name', member 'm.name', and invocation 'm.print();'.",
+            "strengths": "Correct use of scope resolution and member access.",
+            "areas_for_improvement": "None."
+        },
+        "401": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output 'x is 10 *y is 10 **z is 10'.",
+            "strengths": "Correct understanding of pointer dereferencing and output.",
+            "areas_for_improvement": "None."
+        },
+        "402": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output 'a is 1 b is 1 c is 1\\nx is 1 y is 0 z is 1'.",
+            "strengths": "Correct understanding of reference and pointer manipulation.",
+            "areas_for_improvement": "None."
+        },
+        "403": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output ' x[0] = 1 y[0] = 2'.",
+            "strengths": "Correct understanding of pointer swapping.",
+            "areas_for_improvement": "None."
+        },
+        "404": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output 'test1=20test2=50.8test3=68'.",
+            "strengths": "Correct use of default parameters and function calls.",
+            "areas_for_improvement": "None."
+        },
+        "405": {
+            "score": 2,
+            "breakdown": "The student correctly provided the output with all six lines in order.",
+            "strengths": "Correct understanding of function calls and reference manipulation.",
+            "areas_for_improvement": "None."
+        },
+        "5": {
+            "score": 40,
+            "breakdown": "The student correctly implemented the hourglass program with input validation and correct output format.",
+            "strengths": "Correct implementation of input validation and symmetric hourglass pattern.",
+            "areas_for_improvement": "None."
+        },
+        "6": {
+            "score": 20,
+            "breakdown": "The student correctly implemented the Complex class constructor, getters, and setters, with correct output.",
+            "strengths": "Correct implementation of class constructor and member functions.",
+            "areas_for_improvement": "None."
+        }
+    }
+}
