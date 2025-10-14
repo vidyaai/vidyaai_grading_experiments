@@ -66,12 +66,12 @@ class LLMGrader:
         return prompt
     
     def grade_answer(self, question, student_answer, sample_answer, criteria, full_points, max_retries=3):
-        return {
-            "score": full_points,
-            "question": question,
-            "student_answer": student_answer,
-            "sample_answer": sample_answer
-        }
+        # return {
+        #     "score": full_points,
+        #     "question": question,
+        #     "student_answer": student_answer,
+        #     "sample_answer": sample_answer
+        # }
 
         """Grade a single answer using GPT-4"""
         prompt = self.create_grading_prompt(question, student_answer, sample_answer, criteria, full_points)
