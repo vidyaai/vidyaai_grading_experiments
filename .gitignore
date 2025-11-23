@@ -1,1 +1,6 @@
 .env
+diagram_extraction_yolo_poc/yolo11l.pt
+diagram_extraction_yolo_poc/yolo11m.pt
+diagram_extraction_yolo_poc/yolo11n.pt
+diagram_extraction_yolo_poc/yolov8n.pt
+diagram_extraction_yolo_poc/yolov8s.pt
