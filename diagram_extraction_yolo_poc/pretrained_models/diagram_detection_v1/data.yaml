@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Figure Detection - v3 Dataset Version2']
+
+roboflow:
+  workspace: ipcvcp
+  project: diagram-detection-wsnbk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ipcvcp/diagram-detection-wsnbk/dataset/1
